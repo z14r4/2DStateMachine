@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1769412464
+::res://::1769413458
 grass03.png::CompressedTexture2D::3234756878839594056::1769412173::1769412228::1::::<><><>0<>0<>caefc6abfd4756697272679283f95b11<>res://.godot/imported/grass03.png-39e22a73ac290f144a6e8ab2064696e4.ctex::
 icon.svg::CompressedTexture2D::8115382962528555170::1769412173::1769412228::1::::<><><>0<>0<>046d36dc7e891fd524b0dc8356789017<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 meowmeow.jpg::CompressedTexture2D::2924612897858689881::1769412173::1769412228::1::::<><><>0<>0<>702dbdc63e4ffb24bd1bbb71599dbeee<>res://.godot/imported/meowmeow.jpg-d8bc046d7e2a96db58774ec100a4c4b7.ctex::
@@ -38,8 +38,8 @@ SLIDE.gd::GDScript::874542085654368989::1769412173::0::1::::<><><>0<>0<><>::
 SLIDE.tscn::PackedScene::185507077783765810::1769412173::0::1::::<><><>0<>0<><>::res://scenes/entities/player/SLIDE.gd
 state.gd::GDScript::4147218293599287260::1769412173::0::1::::<>Node<><>0<>0<><>::
 STATES.gd::GDScript::3290440052417138639::1769412173::0::1::::<>Node2D<><>0<>0<><>::
-::res://scenes/environment/::1769412173
-world.tscn::PackedScene::7429718659764584413::1769412173::0::1::::<><><>0<>0<><>::uid://bmc68dajvin8c::::res://grass03.png<>uid://dfcrep6152qut::::res://scenes/entities/player/Player.tscn<>uid://ecv0vw1wb1ws::::res://scenes/tile_map.tscn
-::res://scenes/environment/tilesets/::1769412228
-cavesofgallettileset.tres::TileSet::1943275414918239018::1769412173::0::1::::<><><>0<>0<><>::uid://b0dlkxlnlwoc2::::res://scenes/environment/tilesets/cavesofgallet_tiles.png
+::res://scenes/environment/::1769412483
+world.tscn::PackedScene::7429718659764584413::1769412483::0::1::::<><><>0<>0<><>::uid://bmc68dajvin8c::::res://grass03.png<>uid://dfcrep6152qut::::res://scenes/entities/player/Player.tscn<>uid://ecv0vw1wb1ws::::res://scenes/tile_map.tscn
+::res://scenes/environment/tilesets/::1769412483
+cavesofgallettileset.tres::TileSet::1943275414918239018::1769412483::0::1::::<><><>0<>0<><>::uid://b0dlkxlnlwoc2::::res://scenes/environment/tilesets/cavesofgallet_tiles.png
 cavesofgallet_tiles.png::CompressedTexture2D::4148021878401713111::1769412173::1769412228::1::::<><><>0<>0<>a299416bf1383cbafb8bc55f981268d4<>res://.godot/imported/cavesofgallet_tiles.png-f8e1b8c49003b967f26dc70f3c1816b1.ctex::
