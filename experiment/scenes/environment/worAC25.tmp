@@ -1,0 +1,40 @@
+[gd_scene load_steps=8 format=3 uid="uid://dd4am7if700pt"]
+
+[ext_resource type="Texture2D" uid="uid://bmc68dajvin8c" path="res://grass03.png" id="2_jiaj6"]
+[ext_resource type="PackedScene" uid="uid://dfcrep6152qut" path="res://scenes/entities/player/Player.tscn" id="2_lt2qu"]
+[ext_resource type="PackedScene" uid="uid://ecv0vw1wb1ws" path="res://scenes/tile_map.tscn" id="4_erwax"]
+[ext_resource type="PackedScene" uid="uid://r6xahjwk81fl" path="res://scenes/entities/enemies/Enemy2 (Moving Dummy)/Enemy2.tscn" id="5_w80sh"]
+[ext_resource type="PackedScene" uid="uid://csrug2qlcqpg7" path="res://ui/health_changed_manager.tscn" id="6_q7kr2"]
+[ext_resource type="PackedScene" uid="uid://dnvuq4nlcfn7x" path="res://scenes/entities/enemies/Enemy3(Dummy2)/Enemy3.tscn" id="7_sjxoo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5t7go"]
+size = Vector2(419, 202)
+
+[node name="World" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(-429, -247)
+collision_layer = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(199.5, 102)
+shape = SubResource("RectangleShape2D_5t7go")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(199, 98.5)
+scale = Vector2(0.820313, 0.380859)
+texture = ExtResource("2_jiaj6")
+
+[node name="TileMap" parent="." instance=ExtResource("4_erwax")]
+position = Vector2(715, 32)
+
+[node name="Player" parent="." instance=ExtResource("2_lt2qu")]
+position = Vector2(458, 10)
+
+[node name="Enemy2" parent="." instance=ExtResource("5_w80sh")]
+position = Vector2(755, -97)
+
+[node name="HealthChangedManager" parent="." instance=ExtResource("6_q7kr2")]
+
+[node name="Enemy3" parent="." instance=ExtResource("7_sjxoo")]
+position = Vector2(899, -35)
